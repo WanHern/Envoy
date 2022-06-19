@@ -1,0 +1,237 @@
+[
+    {
+        "details": "num = 1",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "num":1
+            }
+    },
+    {
+        "details": "num = 3",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "num":3
+            }
+    },
+    {
+        "details": "num = 0",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "num":0
+            }
+    },
+    {
+        "details": "num < 0",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "num":-1
+            }
+    },
+    {
+        "details": "num = 1.5",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "num":1.5
+            }
+    },
+    {
+        "details": "page = 1",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1
+            }
+    },
+    {
+        "details": "page = 1.5",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1.5
+            }
+    },
+    {
+        "details": "page = 0",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":0
+            }
+    },
+    {
+        "details":  "page < 0",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":-1
+            }
+    },
+    {   
+        "details": "location doesn't exist",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "$3NG3OII",
+                "start_date": "2020-03-04T23:30:00"
+            }
+    },
+    {
+        "details": "end_date < start_date",
+        "input":
+            {
+                "end_date": "2020-03-04T00:29:59",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T00:30:00",
+                "num":1
+            }
+    },
+    {
+        "details": "today < end_date",
+        "input":
+            {
+                "end_date": "2021-03-04T00:29:59",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T00:30:00",
+                "num":1
+            }
+    },
+    {
+        "details": "start_date: incorrect format",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "04-03-2020T23:30:00"
+            }
+    },
+    {
+        "details": "end_date: incorrect format",
+        "input":
+            {
+                "end_date": "2020-03-05",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00"
+            }
+    },
+    {
+        "details": "dates from a long time ago",
+        "input":
+            {
+                "end_date": "1920-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "1920-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "end_date value empty",
+        "input":
+            {
+                "end_date": "",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "start_date value empty",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "United States",
+                "start_date": "",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "key_terms value empty",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "location value empty",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "Coronavirus",
+                "location": "",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "Multiple key terms",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "covid,Coronavirus",
+                "location": "United States",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    },
+    {
+        "details": "Location abbreviated",
+        "input":
+            {
+                "end_date": "2020-03-05T00:30:00",
+                "key_terms": "covid,Coronavirus",
+                "location": "US",
+                "start_date": "2020-03-04T23:30:00",
+                "page":1,
+                "num":1
+            }
+    }
+]

@@ -1,0 +1,268 @@
+[
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date",
+        "payload": {
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date",
+        "payload": {
+            "location": "United States"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date",
+        "payload": {
+            "key_terms": "Coronavirus"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date. And found extra keys: some_other_key",
+        "payload": {
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 200,
+        "content": "[{\"url\":\"https://www.wsj.com/articles/coronavirus-spreads-world-wide-containment-is-an-unlikely-outcome-11583403706\",\"date_of_publication\":\"2020-03-05 00:29:00\",\"headline\":\"[Wsj.com] DISTRICT OF COLUMBIA - Coronavirus Containment Is Unlikely Outcome as Spread Grows World-Wide\",\"main_text\":\"March 23, 2020 A suburban Seattle school district launched the farthest-reaching school closures in the U.S. Thursday in an attempt to contain the coronavirus, directing more than 23,500 students to stay home for up to two weeks in a last-resort step that districts across the country are considering.  The number of deaths in Washington state rose to 11 Thursday and confirmed cases jumped to 70 from 39 a day earlier, prompting companies including Microsoft Corp., Amazon Inc. and Facebook Inc. to encourage employees in the region to work from...\\n   WSJ Membership Customer Service Tools & Features Ads More\",\"reports\":[{\"event_date\":\"2020-03-05 00:29:00\",\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"country\":\"United States\",\"location\":\"Washington DC\"}]}]},{\"url\":\"https://www.businessinsider.com/cash-could-spread-coronavirus-warns-world-health-organization-2020-3\",\"date_of_publication\":\"2020-03-05 00:26:00\",\"headline\":\"[Businessinsider.com] DISTRICT OF COLUMBIA - Cash could be spreading the coronavirus, warns the World Health Organization\",\"main_text\":\"EDITION Cash could be contributing to the spread of COVID-19, the disease caused by the novel coronavirus, according to the World Health Organisation.    The WHO  told The Telegraph that the coronavirus could remain on money for days after being exposed to it and that people should avoid touching their face after handling cash. \u201cWe know that money changes hands frequently and can pick up all sorts of bacteria and viruses and things like that,\u201d a WHO representative told The Telegraph. \u201cWe would advise people to wash their hands after handling banknotes and avoid touching their face.\u201d In a statement to Business Insider, a WHO representative said people \u201cshould wash their hands or use a hand sanitizer after handling money, especially if they are about to eat or before handling food.\u201d The Mayo Clinic says that viruses tend to last longer on hard surfaces like plastic and metal than on soft surfaces like fabric \u2013 US dollars are a blend of paper and fabric \u2013 but that factors like temperature and humidity affect how long a virus sticks around on surfaces. China  said in February that it would destroy and disinfect cash from hospitals, buses, and markets in areas severely affected by the coronavirus. The UK-based Telegraph reported that the Bank of England said it would not follow China\u2019s plan and disinfect cash. The US Treasury Department did not respond to a request for comment. Site highlights each day to your inbox. Follow Business Insider Australia on Facebook, Twitter, LinkedIn, and Instagram. The PM\u2019s Coronavirus Announcement Has The Whole Country Asking... Sophie Turner Takes A Not-So-Subtle Jab At Evangeline Lilly For... Scott Morrison Wants Australia To Know His \u201cPrayer Knees\u201d... Here\u2019s Your Rolling List Of What\u2019s Open &... This Ridiculous 850-Horsepower 1936 Chevrolet Makes A Spirited... Why Dogs Don\u2019t Care For Being Groomed Melbourne Zoo Needs To Give This Viral Dancing Worker A Raise NASA Fixes Probe On Mars By Hitting It With A Shovel How To Catch Wasps In Animal Crossing: New Horizons This Week In Games: Half-Life Returns How To Use QR Codes In Animal Crossing: New Horizons Nike Made More PlayStation Shoes, But You Can't Buy These Ones Shifting From A Physical Conference To An Online Event Australia Is Shutting Down Pubs, Bars, Cafes and Restaurants \u2014... How To Get Into DJ D-Nice's Virtual 'Club Quarantine' Dance Party Siri Can Now Field Questions About Coronavirus\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"location\":\"Washington DC\",\"country\":\"United States\"}],\"event_date\":\"2020-03-05 00:26:00\"}]},{\"url\":\"https://www.theepochtimes.com/first-patient-tests-positive-for-new-coronavirus-in-new-jersey_3261186.html\",\"date_of_publication\":\"2020-03-05 00:24:00\",\"headline\":\"[Theepochtimes.com] NEW JERSEY - First Patient Tests Positive for New Coronavirus in New Jersey\",\"main_text\":\"A patient tested positive for the new coronavirus in New Jersey for the first time, officials announced. The patient is a male in his 30s who has been hospitalized in Bergen County since March 3. A sample tested by the state Department of Health came back positive. The sample was pending confirmation by the Centers for Disease Control and Prevention (CDC) but was being treated as confirmed. State officials are \u201cworking aggressively to keep residents safe and contain the spread of COVID-19 in New Jersey,\u201d Gov. Phil Murphy said in a statement. COVID-19 is the disease caused by the new virus, SARS-nCoV-19. According to Judith Persichilli, the state\u2019s health commissioner, most New Jersey residents are at a very low risk of contracting the new illness. The state Department of Health previously said New Jersey was preparing for a \u201cpotential outbreak\u201d of the virus. Officials said state residents should follow guidance from the CDC and state Health Department to contain the spread of COVID-19. The CDC recommends people prevent the illness by avoiding close contact with sick people, not touching one\u2019s eyes, nose, and mouth with unwashed hands, and washing hands frequently. People who are ill should stay at home. Other recommendations include covering a cough or sneeze with a tissue, then throwing the tissue in the trash, and cleaning and disinfecting frequently touched objects and surfaces using a cleaning spray or wipe. Americans should prepare for significant disruption to their lives, including having plans in place in case their workplaces or children\u2019s schools close or are limited by outbreaks of the virus. Employers should encourage sick employees to stay home and consider letting people work from home if possible. Some areas have begun discouraging large public events. The CDC is also recommending that people avoid traveling to parts of the world most affected by the new virus, including China, Iran, South Korea, and Italy. There are 100 confirmed cases now in the United States, Vice President Mike Pence, head of the Coronavirus Task Force, told reporters on Wednesday night. That doesn\u2019t include the people evacuated from Japan or China who have become ill since returning to America and being quarantined at military bases. Most of the cases are on the West Coast, in California or Washington state. The virus first emerged in late 2019 in Wuhan, China, and has spread to over 50 countries. The virus primarily spreads from person to person through respiratory droplets produced when an infected person coughs or sneezes. There are currently no vaccines or proven treatments, though many patients have recovered through rest and medical care. About four out of five patients don\u2019t require hospitalization, according to international health experts. Of the nearly 100,000 people who have tested positive for the virus worldwide, around 3,000 have died. While New Jersey reported its first case on Wednesday, neighboring New York reported a sharp increase in cases, including family members of a man who lives in Westchester and works in the borough of Manhattan. Nine people in contact with the man tested positive, including his wife and children and several neighbors. Officials said about 1,000 people were asked to self-quarantine and monitor themselves for symptoms of the new virus. Symptoms are similar to those for the flu and include fever and a dry cough.\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"Fever of unknown Origin\",\"Influenza-like illness\",\"sars\",\"COVID-19\",\"Acute fever and rash\",\"other\"],\"locations\":[{\"location\":\"Trenton, NJ\",\"country\":\"United States\"}],\"event_date\":\"2020-03-05 00:24:00\"}]},{\"url\":\"https://www.dhakatribune.com/bangladesh/2020/03/04/2-dengue-patients-hospitalized-in-24-hours\",\"date_of_publication\":\"2020-03-04 23:55:00\",\"headline\":\"[Dhakatribune.com] BANGLADESH - 2 dengue patients hospitalized in 24 hours\",\"main_text\":\"World Nation Dhaka Dhaka Dhaka Bangladesh Dhaka Court Business South Asia 246 dengue cases were reported and 244 have been discharged from hospitals this year The Directorate General of Health Services (DGHS) has confirmed that two new dengue patients were hospitalized in the last 24 hours. According to daily update from DGHS, two dengue patients are being treated at hospital in Dhaka till 8am on Wednesday, reports UNB. Since the beginning of this year, 246 dengue cases were reported. Of them, 244 have been discharged from hospitals. Bangladesh experienced a massive dengue outbreak last year. The government confirmed deaths of 164 people last year.\u00a0 The Institute of Epidemiology, Disease Control and Research (IEDCR) confirmed the number after reviewing 263 out of 266 reports of dengue-related deaths. Last year, 101,354 people were hospitalized with dengue in Bangladesh. Of them, 101,037 made full recovery. World Nation Dhaka Dhaka Dhaka Bangladesh Dhaka Court Business South Asia Copyright \u24b8 2012-2019. 2A Media Limited.\\nAll Rights Reserved. 8/C, FR Tower, Panthapath, Dhaka 1207, Bangladesh. Kazi Anis Ahmed, Publisher\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"dengue\"],\"locations\":[{\"location\":\"Dhaka\",\"country\":\"Bangladesh\"}],\"event_date\":\"2020-03-04 23:55:00\"}]}]",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date",
+        "payload": {
+            "location": "United States",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date. And found extra keys: some_other_key",
+        "payload": {
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "location": "United States"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date. And found extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "location": "United States"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date. And found extra keys: some_other_key",
+        "payload": {
+            "location": "United States",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date. And found extra keys: some_other_key",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 200,
+        "content": "[]",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "location": "United States",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 200,
+        "content": "[{\"url\":\"https://www.wsj.com/articles/coronavirus-spreads-world-wide-containment-is-an-unlikely-outcome-11583403706\",\"date_of_publication\":\"2020-03-05 00:29:00\",\"headline\":\"[Wsj.com] DISTRICT OF COLUMBIA - Coronavirus Containment Is Unlikely Outcome as Spread Grows World-Wide\",\"main_text\":\"March 23, 2020 A suburban Seattle school district launched the farthest-reaching school closures in the U.S. Thursday in an attempt to contain the coronavirus, directing more than 23,500 students to stay home for up to two weeks in a last-resort step that districts across the country are considering.  The number of deaths in Washington state rose to 11 Thursday and confirmed cases jumped to 70 from 39 a day earlier, prompting companies including Microsoft Corp., Amazon Inc. and Facebook Inc. to encourage employees in the region to work from...\\n   WSJ Membership Customer Service Tools & Features Ads More\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"location\":\"Washington DC\",\"country\":\"United States\"}],\"event_date\":\"2020-03-05 00:29:00\"}]},{\"url\":\"https://www.businessinsider.com/cash-could-spread-coronavirus-warns-world-health-organization-2020-3\",\"date_of_publication\":\"2020-03-05 00:26:00\",\"headline\":\"[Businessinsider.com] DISTRICT OF COLUMBIA - Cash could be spreading the coronavirus, warns the World Health Organization\",\"main_text\":\"EDITION Cash could be contributing to the spread of COVID-19, the disease caused by the novel coronavirus, according to the World Health Organisation.    The WHO  told The Telegraph that the coronavirus could remain on money for days after being exposed to it and that people should avoid touching their face after handling cash. \u201cWe know that money changes hands frequently and can pick up all sorts of bacteria and viruses and things like that,\u201d a WHO representative told The Telegraph. \u201cWe would advise people to wash their hands after handling banknotes and avoid touching their face.\u201d In a statement to Business Insider, a WHO representative said people \u201cshould wash their hands or use a hand sanitizer after handling money, especially if they are about to eat or before handling food.\u201d The Mayo Clinic says that viruses tend to last longer on hard surfaces like plastic and metal than on soft surfaces like fabric \u2013 US dollars are a blend of paper and fabric \u2013 but that factors like temperature and humidity affect how long a virus sticks around on surfaces. China  said in February that it would destroy and disinfect cash from hospitals, buses, and markets in areas severely affected by the coronavirus. The UK-based Telegraph reported that the Bank of England said it would not follow China\u2019s plan and disinfect cash. The US Treasury Department did not respond to a request for comment. Site highlights each day to your inbox. Follow Business Insider Australia on Facebook, Twitter, LinkedIn, and Instagram. The PM\u2019s Coronavirus Announcement Has The Whole Country Asking... Sophie Turner Takes A Not-So-Subtle Jab At Evangeline Lilly For... Scott Morrison Wants Australia To Know His \u201cPrayer Knees\u201d... Here\u2019s Your Rolling List Of What\u2019s Open &... This Ridiculous 850-Horsepower 1936 Chevrolet Makes A Spirited... Why Dogs Don\u2019t Care For Being Groomed Melbourne Zoo Needs To Give This Viral Dancing Worker A Raise NASA Fixes Probe On Mars By Hitting It With A Shovel How To Catch Wasps In Animal Crossing: New Horizons This Week In Games: Half-Life Returns How To Use QR Codes In Animal Crossing: New Horizons Nike Made More PlayStation Shoes, But You Can't Buy These Ones Shifting From A Physical Conference To An Online Event Australia Is Shutting Down Pubs, Bars, Cafes and Restaurants \u2014... How To Get Into DJ D-Nice's Virtual 'Club Quarantine' Dance Party Siri Can Now Field Questions About Coronavirus\",\"reports\":[{\"event_date\":\"2020-03-05 00:26:00\",\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"country\":\"United States\",\"location\":\"Washington DC\"}]}]},{\"url\":\"https://www.theepochtimes.com/first-patient-tests-positive-for-new-coronavirus-in-new-jersey_3261186.html\",\"date_of_publication\":\"2020-03-05 00:24:00\",\"headline\":\"[Theepochtimes.com] NEW JERSEY - First Patient Tests Positive for New Coronavirus in New Jersey\",\"main_text\":\"A patient tested positive for the new coronavirus in New Jersey for the first time, officials announced. The patient is a male in his 30s who has been hospitalized in Bergen County since March 3. A sample tested by the state Department of Health came back positive. The sample was pending confirmation by the Centers for Disease Control and Prevention (CDC) but was being treated as confirmed. State officials are \u201cworking aggressively to keep residents safe and contain the spread of COVID-19 in New Jersey,\u201d Gov. Phil Murphy said in a statement. COVID-19 is the disease caused by the new virus, SARS-nCoV-19. According to Judith Persichilli, the state\u2019s health commissioner, most New Jersey residents are at a very low risk of contracting the new illness. The state Department of Health previously said New Jersey was preparing for a \u201cpotential outbreak\u201d of the virus. Officials said state residents should follow guidance from the CDC and state Health Department to contain the spread of COVID-19. The CDC recommends people prevent the illness by avoiding close contact with sick people, not touching one\u2019s eyes, nose, and mouth with unwashed hands, and washing hands frequently. People who are ill should stay at home. Other recommendations include covering a cough or sneeze with a tissue, then throwing the tissue in the trash, and cleaning and disinfecting frequently touched objects and surfaces using a cleaning spray or wipe. Americans should prepare for significant disruption to their lives, including having plans in place in case their workplaces or children\u2019s schools close or are limited by outbreaks of the virus. Employers should encourage sick employees to stay home and consider letting people work from home if possible. Some areas have begun discouraging large public events. The CDC is also recommending that people avoid traveling to parts of the world most affected by the new virus, including China, Iran, South Korea, and Italy. There are 100 confirmed cases now in the United States, Vice President Mike Pence, head of the Coronavirus Task Force, told reporters on Wednesday night. That doesn\u2019t include the people evacuated from Japan or China who have become ill since returning to America and being quarantined at military bases. Most of the cases are on the West Coast, in California or Washington state. The virus first emerged in late 2019 in Wuhan, China, and has spread to over 50 countries. The virus primarily spreads from person to person through respiratory droplets produced when an infected person coughs or sneezes. There are currently no vaccines or proven treatments, though many patients have recovered through rest and medical care. About four out of five patients don\u2019t require hospitalization, according to international health experts. Of the nearly 100,000 people who have tested positive for the virus worldwide, around 3,000 have died. While New Jersey reported its first case on Wednesday, neighboring New York reported a sharp increase in cases, including family members of a man who lives in Westchester and works in the borough of Manhattan. Nine people in contact with the man tested positive, including his wife and children and several neighbors. Officials said about 1,000 people were asked to self-quarantine and monitor themselves for symptoms of the new virus. Symptoms are similar to those for the flu and include fever and a dry cough.\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"Fever of unknown Origin\",\"Influenza-like illness\",\"sars\",\"COVID-19\",\"Acute fever and rash\",\"other\"],\"locations\":[{\"location\":\"Trenton, NJ\",\"country\":\"United States\"}],\"event_date\":\"2020-03-05 00:24:00\"}]}]",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date. And found extra keys: some_other_key",
+        "payload": {
+            "location": "United States",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date. And found extra keys: some_other_key",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "location": "United States"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date. And found extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "location": "United States",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date. And found extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date, end_date. And found extra keys: some_other_key",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 200,
+        "content": "[{\"url\":\"https://www.wsj.com/articles/coronavirus-spreads-world-wide-containment-is-an-unlikely-outcome-11583403706\",\"date_of_publication\":\"2020-03-05 00:29:00\",\"headline\":\"[Wsj.com] DISTRICT OF COLUMBIA - Coronavirus Containment Is Unlikely Outcome as Spread Grows World-Wide\",\"main_text\":\"March 23, 2020 A suburban Seattle school district launched the farthest-reaching school closures in the U.S. Thursday in an attempt to contain the coronavirus, directing more than 23,500 students to stay home for up to two weeks in a last-resort step that districts across the country are considering.  The number of deaths in Washington state rose to 11 Thursday and confirmed cases jumped to 70 from 39 a day earlier, prompting companies including Microsoft Corp., Amazon Inc. and Facebook Inc. to encourage employees in the region to work from...\\n   WSJ Membership Customer Service Tools & Features Ads More\",\"reports\":[{\"event_date\":\"2020-03-05 00:29:00\",\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"country\":\"United States\",\"location\":\"Washington DC\"}]}]},{\"url\":\"https://www.businessinsider.com/cash-could-spread-coronavirus-warns-world-health-organization-2020-3\",\"date_of_publication\":\"2020-03-05 00:26:00\",\"headline\":\"[Businessinsider.com] DISTRICT OF COLUMBIA - Cash could be spreading the coronavirus, warns the World Health Organization\",\"main_text\":\"EDITION Cash could be contributing to the spread of COVID-19, the disease caused by the novel coronavirus, according to the World Health Organisation.    The WHO  told The Telegraph that the coronavirus could remain on money for days after being exposed to it and that people should avoid touching their face after handling cash. \u201cWe know that money changes hands frequently and can pick up all sorts of bacteria and viruses and things like that,\u201d a WHO representative told The Telegraph. \u201cWe would advise people to wash their hands after handling banknotes and avoid touching their face.\u201d In a statement to Business Insider, a WHO representative said people \u201cshould wash their hands or use a hand sanitizer after handling money, especially if they are about to eat or before handling food.\u201d The Mayo Clinic says that viruses tend to last longer on hard surfaces like plastic and metal than on soft surfaces like fabric \u2013 US dollars are a blend of paper and fabric \u2013 but that factors like temperature and humidity affect how long a virus sticks around on surfaces. China  said in February that it would destroy and disinfect cash from hospitals, buses, and markets in areas severely affected by the coronavirus. The UK-based Telegraph reported that the Bank of England said it would not follow China\u2019s plan and disinfect cash. The US Treasury Department did not respond to a request for comment. Site highlights each day to your inbox. Follow Business Insider Australia on Facebook, Twitter, LinkedIn, and Instagram. The PM\u2019s Coronavirus Announcement Has The Whole Country Asking... Sophie Turner Takes A Not-So-Subtle Jab At Evangeline Lilly For... Scott Morrison Wants Australia To Know His \u201cPrayer Knees\u201d... Here\u2019s Your Rolling List Of What\u2019s Open &... This Ridiculous 850-Horsepower 1936 Chevrolet Makes A Spirited... Why Dogs Don\u2019t Care For Being Groomed Melbourne Zoo Needs To Give This Viral Dancing Worker A Raise NASA Fixes Probe On Mars By Hitting It With A Shovel How To Catch Wasps In Animal Crossing: New Horizons This Week In Games: Half-Life Returns How To Use QR Codes In Animal Crossing: New Horizons Nike Made More PlayStation Shoes, But You Can't Buy These Ones Shifting From A Physical Conference To An Online Event Australia Is Shutting Down Pubs, Bars, Cafes and Restaurants \u2014... How To Get Into DJ D-Nice's Virtual 'Club Quarantine' Dance Party Siri Can Now Field Questions About Coronavirus\",\"reports\":[{\"syndromes\":[],\"diseases\":[\"COVID-19\"],\"locations\":[{\"location\":\"Washington DC\",\"country\":\"United States\"}],\"event_date\":\"2020-03-05 00:26:00\"}]},{\"url\":\"https://www.theepochtimes.com/first-patient-tests-positive-for-new-coronavirus-in-new-jersey_3261186.html\",\"date_of_publication\":\"2020-03-05 00:24:00\",\"headline\":\"[Theepochtimes.com] NEW JERSEY - First Patient Tests Positive for New Coronavirus in New Jersey\",\"main_text\":\"A patient tested positive for the new coronavirus in New Jersey for the first time, officials announced. The patient is a male in his 30s who has been hospitalized in Bergen County since March 3. A sample tested by the state Department of Health came back positive. The sample was pending confirmation by the Centers for Disease Control and Prevention (CDC) but was being treated as confirmed. State officials are \u201cworking aggressively to keep residents safe and contain the spread of COVID-19 in New Jersey,\u201d Gov. Phil Murphy said in a statement. COVID-19 is the disease caused by the new virus, SARS-nCoV-19. According to Judith Persichilli, the state\u2019s health commissioner, most New Jersey residents are at a very low risk of contracting the new illness. The state Department of Health previously said New Jersey was preparing for a \u201cpotential outbreak\u201d of the virus. Officials said state residents should follow guidance from the CDC and state Health Department to contain the spread of COVID-19. The CDC recommends people prevent the illness by avoiding close contact with sick people, not touching one\u2019s eyes, nose, and mouth with unwashed hands, and washing hands frequently. People who are ill should stay at home. Other recommendations include covering a cough or sneeze with a tissue, then throwing the tissue in the trash, and cleaning and disinfecting frequently touched objects and surfaces using a cleaning spray or wipe. Americans should prepare for significant disruption to their lives, including having plans in place in case their workplaces or children\u2019s schools close or are limited by outbreaks of the virus. Employers should encourage sick employees to stay home and consider letting people work from home if possible. Some areas have begun discouraging large public events. The CDC is also recommending that people avoid traveling to parts of the world most affected by the new virus, including China, Iran, South Korea, and Italy. There are 100 confirmed cases now in the United States, Vice President Mike Pence, head of the Coronavirus Task Force, told reporters on Wednesday night. That doesn\u2019t include the people evacuated from Japan or China who have become ill since returning to America and being quarantined at military bases. Most of the cases are on the West Coast, in California or Washington state. The virus first emerged in late 2019 in Wuhan, China, and has spread to over 50 countries. The virus primarily spreads from person to person through respiratory droplets produced when an infected person coughs or sneezes. There are currently no vaccines or proven treatments, though many patients have recovered through rest and medical care. About four out of five patients don\u2019t require hospitalization, according to international health experts. Of the nearly 100,000 people who have tested positive for the virus worldwide, around 3,000 have died. While New Jersey reported its first case on Wednesday, neighboring New York reported a sharp increase in cases, including family members of a man who lives in Westchester and works in the borough of Manhattan. Nine people in contact with the man tested positive, including his wife and children and several neighbors. Officials said about 1,000 people were asked to self-quarantine and monitor themselves for symptoms of the new virus. Symptoms are similar to those for the flu and include fever and a dry cough.\",\"reports\":[{\"event_date\":\"2020-03-05 00:24:00\",\"syndromes\":[],\"diseases\":[\"Fever of unknown Origin\",\"Influenza-like illness\",\"sars\",\"COVID-19\",\"Acute fever and rash\",\"other\"],\"locations\":[{\"location\":\"Trenton, NJ\",\"country\":\"United States\"}]}]}]",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "location": "United States",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: end_date. And found extra keys: some_other_key",
+        "payload": {
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Missing following keys: start_date. And found extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "some_other_key": "Something"
+        }
+    },
+    {
+        "code": 400,
+        "content": "Extra keys: some_other_key",
+        "payload": {
+            "end_date": "2020-03-05T00:30:00",
+            "key_terms": "Coronavirus",
+            "location": "United States",
+            "some_other_key": "Something",
+            "start_date": "2020-03-04T23:30:00"
+        }
+    }
+]
